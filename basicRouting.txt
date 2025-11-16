@@ -1,0 +1,29 @@
+//need of express.js instead of setting server using http module
+
+Feature / Point	                       HTTP Module (Default Node.js)	                                                    Express.js
+Code simplicity                  	   You have to manually handle routing, parsing requests, sending responses, etc.	    Express provides simple methods like app.get(), app.post() — very clean and short.
+Routing	                               Must manually check req.url and req.method for each route.	                        Built-in routing system to handle multiple URLs easily.
+Middleware                  	       No built-in middleware support — you must write everything yourself.	                Built-in + third-party middleware (like body-parser, cookie-parser, etc.) handle requests easily.
+Handling JSON / form data   	       You must manually parse the request body.	                                        Express automatically parses JSON and form data with one line (app.use(express.json())).
+Error handling	                       You must handle errors manually for every route.                                     Centralized error-handling mechanism.
+Reusability	                           Hard to organize code for large apps.	                                            Easy to structure large apps using routers and middleware.
+Performance	                           Slightly faster for very small apps.	                                                Tiny overhead, but much easier to scale.
+
+
+//So, how does POST work in a full-stack project?
+In a real web app, POST requests are sent by:
+ 1. HTML Forms
+ 2. JavaScript (Fetch API / Axios)
+ 3. Frameworks like React, Angular, Vue
+NOT by typing in the browser.
+
+ca qsns
+1 create a server that uses the get method and display welcome message
+2 show the user info by using get method(name,age)
+3 create html form with input by using post method
+4 add two numbers use the post method
+5 create a page by using get and post method
+6 create an express app that takes username and age
+7 create an express app that accepts a post request
+8 create a get route /product that accepts the product detials via query parameters
+9 to handle multiple status code also use get post and use the stream module
