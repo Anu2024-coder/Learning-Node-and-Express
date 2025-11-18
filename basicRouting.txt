@@ -27,3 +27,5 @@ ca qsns
 7 create an express app that accepts a post request
 8 create a get route /product that accepts the product detials via query parameters
 9 to handle multiple status code also use get post and use the stream module
+
+ca qsns
