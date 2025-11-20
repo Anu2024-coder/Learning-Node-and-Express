@@ -29,3 +29,12 @@ ca qsns
 9 to handle multiple status code also use get post and use the stream module
 
 ca qsns
+1 create a simple http server that displays hello world in the browser
+2 create a express app that take username and age
+3 create am express app that accepts a post request
+4 create a get route/product that accepts  the product details via query parameters
+5 parse json data from post request method by craeting express serbver
+6 parse url encoded form data that accepts form data like reads username and password 
+7 create simple calculator accepts two numbers in json
+8 displays infomation name, city, mobile in body
+9 create a route login details name=admin and password=123 and return error message
